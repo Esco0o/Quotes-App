@@ -1,0 +1,51 @@
+*
+{
+    font-family: "Metal", serif;
+}
+
+
+.head h1
+{
+    font-size: 4.5rem;    
+    font-weight: 900;
+}
+
+.head p
+{
+    font-size: 2rem;
+}
+
+button
+{
+    margin-top: 2rem ;
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.76);
+    transition: .5s;
+    
+    
+}
+
+button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+@media(max-width:678px)
+{
+    .head h1
+{
+    font-size: 3rem;    
+    
+}
+
+.head p
+{
+    font-size: 2rem;
+    padding: 0 10px;   
+}
+}
